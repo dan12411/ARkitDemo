@@ -11,7 +11,7 @@ import Foundation
 class ScreenRecordCoordinator: NSObject {
     let viewOverlay = WindowUtility()
     let screenRecorder = ScreenRecorder()
-    var recordCompleted:((Error?) ->Void)?
+    var recordCompleted: ((Error?) ->Void)?
     
     override init() {
         super.init()

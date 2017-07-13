@@ -13,25 +13,33 @@ import Photos
 
 
 class ScreenRecorder {
-    var assetWriter:AVAssetWriter!
-    var videoInput:AVAssetWriterInput!
+    var assetWriter: AVAssetWriter!
+    var videoInput: AVAssetWriterInput!
     
     let viewOverlay = WindowUtility()
-    
+    var url: URL?
     //MARK: Screen Recording
     
     func startRecording(withFileName fileName: String, recordingHandler:@escaping (Error?)-> Void) {
         
         let fileURL = URL(fileURLWithPath: ReplayFileUtility.filePath(fileName))
+        self.url = fileURL
         assetWriter = try! AVAssetWriter(outputURL: fileURL, fileType:
             AVFileType.mp4)
+        let width = floor(UIScreen.main.bounds.size.width / 16) * 16
+        let height = floor(UIScreen.main.bounds.size.height / 16) * 16
         let videoOutputSettings: Dictionary<String, Any> = [
             AVVideoCodecKey : AVVideoCodecType.h264,
-            AVVideoWidthKey : UIScreen.main.bounds.size.width,
-            AVVideoHeightKey : UIScreen.main.bounds.size.height
+            AVVideoWidthKey : width,
+            AVVideoHeightKey : height,
+            AVVideoCompressionPropertiesKey: [AVVideoPixelAspectRatioKey: [
+                AVVideoPixelAspectRatioHorizontalSpacingKey: 1,
+                AVVideoPixelAspectRatioVerticalSpacingKey: 1],
+                  AVVideoProfileLevelKey: AVVideoProfileLevelH264HighAutoLevel,
+                ]
         ]
         
-        videoInput  = AVAssetWriterInput (mediaType: AVMediaType.video, outputSettings: videoOutputSettings)
+        videoInput  = AVAssetWriterInput(mediaType: AVMediaType.video, outputSettings: videoOutputSettings)
         videoInput.expectsMediaDataInRealTime = true
         assetWriter.add(videoInput)
         
@@ -61,18 +69,16 @@ class ScreenRecorder {
         }
     }
     
-    fileprivate func saveToPhotoLibrary() {
-        let urls = ReplayFileUtility.fetchAllReplays()
-        for videoURL in urls {
+    fileprivate func saveToPhotoLibrary(_ fileURL: URL) {
             PHPhotoLibrary.shared().performChanges({
-                PHAssetChangeRequest.creationRequestForAssetFromVideo(atFileURL: videoURL)
+                PHAssetChangeRequest.creationRequestForAssetFromVideo(atFileURL: fileURL)
             }) { saved, error in
                 if saved {
                     print("Your video was successfully saved")
+                } else {
+                    print(error?.localizedDescription as Any)
                 }
-                print(error?.localizedDescription as Any)
             }
-        }
     }
     
     func stopRecording(handler: @escaping (Error?) -> Void) {
@@ -80,7 +86,22 @@ class ScreenRecorder {
             handler(error)
             self.assetWriter.finishWriting {
                 print(ReplayFileUtility.fetchAllReplays())
-                self.saveToPhotoLibrary()
+                
+                if let fileURL = self.url {
+                    switch PHPhotoLibrary.authorizationStatus() {
+                    case .authorized:
+                        self.saveToPhotoLibrary(fileURL)
+                    case .restricted, .denied:
+                        break
+                    case .notDetermined:
+                        PHPhotoLibrary.requestAuthorization({ (authorizationStatus) in
+                            if authorizationStatus == .authorized {
+                                self.saveToPhotoLibrary(fileURL)
+                            }
+                        })
+                    }
+                }
+
             }
         }
     }
