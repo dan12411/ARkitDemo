@@ -41,24 +41,31 @@ class RecordVideoViewController: UIViewController {
     
     // MARK: Lifecycle
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
+    fileprivate func setupScene() {
         sceneView.delegate = self
         sceneView.showsStatistics = true
         
         let scene = SCNScene(named: "art.scnassets/ship.scn")!
         sceneView.scene = scene
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
+        setupScene()
         addRecordButton()
+    }
+    
+    fileprivate func setupSession() {
+        let configuration = ARWorldTrackingSessionConfiguration()
+        
+        sceneView.session.run(configuration)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        let configuration = ARWorldTrackingSessionConfiguration()
-        
-        sceneView.session.run(configuration)
+        setupSession()
     }
     
     override func viewWillDisappear(_ animated: Bool) {

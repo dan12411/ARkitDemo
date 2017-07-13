@@ -19,6 +19,8 @@
 		566F7D701F161D9400DAB6D7 /* WindowUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F7D6F1F161D9400DAB6D7 /* WindowUtility.swift */; };
 		566F7D731F161E2E00DAB6D7 /* ReplayFileUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F7D721F161E2E00DAB6D7 /* ReplayFileUtility.swift */; };
 		566F7D751F161E6600DAB6D7 /* ScreenRecordCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F7D741F161E6600DAB6D7 /* ScreenRecordCoordinator.swift */; };
+		566F7D771F170B0400DAB6D7 /* PlaneDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F7D761F170B0400DAB6D7 /* PlaneDetectionViewController.swift */; };
+		566F7D7B1F1711E700DAB6D7 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F7D7A1F1711E700DAB6D7 /* Plane.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		566F7D6F1F161D9400DAB6D7 /* WindowUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowUtility.swift; sourceTree = "<group>"; };
 		566F7D721F161E2E00DAB6D7 /* ReplayFileUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayFileUtility.swift; sourceTree = "<group>"; };
 		566F7D741F161E6600DAB6D7 /* ScreenRecordCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenRecordCoordinator.swift; sourceTree = "<group>"; };
+		566F7D761F170B0400DAB6D7 /* PlaneDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneDetectionViewController.swift; sourceTree = "<group>"; };
+		566F7D7A1F1711E700DAB6D7 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
 		56A7155F1F15BEA800F83C9E /* RecordVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVideoViewController.swift; sourceTree = "<group>"; };
 		56A715601F15BEA800F83C9E /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +72,7 @@
 		56280BC51F14C329008861DF /* ARkitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				566F7D791F1711D800DAB6D7 /* PlaneDetection */,
 				56280BC61F14C329008861DF /* AppDelegate.swift */,
 				56280BC81F14C329008861DF /* art.scnassets */,
 				566F7D471F15C7EE00DAB6D7 /* Assets.xcassets */,
@@ -108,10 +113,19 @@
 			path = ScreenRecord;
 			sourceTree = "<group>";
 		};
+		566F7D791F1711D800DAB6D7 /* PlaneDetection */ = {
+			isa = PBXGroup;
+			children = (
+				566F7D7A1F1711E700DAB6D7 /* Plane.swift */,
+			);
+			path = PlaneDetection;
+			sourceTree = "<group>";
+		};
 		56A7155E1F15BEA800F83C9E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				56A7155F1F15BEA800F83C9E /* RecordVideoViewController.swift */,
+				566F7D761F170B0400DAB6D7 /* PlaneDetectionViewController.swift */,
 				56A715601F15BEA800F83C9E /* RootViewController.swift */,
 			);
 			path = ViewControllers;
@@ -191,9 +205,11 @@
 			files = (
 				566F7D4E1F15CA6900DAB6D7 /* UIStoryboard+Extensions.swift in Sources */,
 				566F7D421F15C35C00DAB6D7 /* RecordVideoViewController.swift in Sources */,
+				566F7D7B1F1711E700DAB6D7 /* Plane.swift in Sources */,
 				566F7D431F15C35C00DAB6D7 /* RootViewController.swift in Sources */,
 				566F7D751F161E6600DAB6D7 /* ScreenRecordCoordinator.swift in Sources */,
 				566F7D701F161D9400DAB6D7 /* WindowUtility.swift in Sources */,
+				566F7D771F170B0400DAB6D7 /* PlaneDetectionViewController.swift in Sources */,
 				56280BC71F14C329008861DF /* AppDelegate.swift in Sources */,
 				566F7D6E1F161CFA00DAB6D7 /* ScreenRecorder.swift in Sources */,
 				566F7D731F161E2E00DAB6D7 /* ReplayFileUtility.swift in Sources */,

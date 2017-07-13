@@ -25,7 +25,7 @@ class RootViewController: UIViewController {
         featuresTableView.dataSource = self
         self.view.addSubview(featuresTableView)
         
-        dataSource = [["Record Video"]]
+        dataSource = [["Record Video", "PlaneDetection"]]
         
     }
 }
@@ -86,6 +86,9 @@ extension RootViewController: UITableViewDelegate {
         case (0,0):
             let recordVC = UIStoryboard.main().instantiateViewController(withIdentifier:"RecordVideoViewController") as! RecordVideoViewController
             self.navigationController?.pushViewController(recordVC, animated: true)
+        case (0,1):
+            let planeVC = UIStoryboard.main().instantiateViewController(withIdentifier: "PlaneDetectionViewController") as! PlaneDetectionViewController
+            self.navigationController?.pushViewController(planeVC, animated: true)
         default:
             break
         }
