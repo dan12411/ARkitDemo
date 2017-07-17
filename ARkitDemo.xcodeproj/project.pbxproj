@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		56280BC71F14C329008861DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56280BC61F14C329008861DF /* AppDelegate.swift */; };
-		56280BC91F14C329008861DF /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 56280BC81F14C329008861DF /* art.scnassets */; };
+		56280BC91F14C329008861DF /* Assets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 56280BC81F14C329008861DF /* Assets.scnassets */; };
+		566176B21F1C9D0A003F9DD5 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566176B11F1C9D0A003F9DD5 /* ConfigViewController.swift */; };
 		566F7D421F15C35C00DAB6D7 /* RecordVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A7155F1F15BEA800F83C9E /* RecordVideoViewController.swift */; };
 		566F7D431F15C35C00DAB6D7 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A715601F15BEA800F83C9E /* RootViewController.swift */; };
 		566F7D481F15C7EE00DAB6D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 566F7D471F15C7EE00DAB6D7 /* Assets.xcassets */; };
@@ -23,13 +24,17 @@
 		566F7D7B1F1711E700DAB6D7 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F7D7A1F1711E700DAB6D7 /* Plane.swift */; };
 		568503161F1876CA004E1B86 /* ARCubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568503151F1876CA004E1B86 /* ARCubeViewController.swift */; };
 		56EC0CC51F18D4B500D15AE3 /* CollisionCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EC0CC41F18D4B500D15AE3 /* CollisionCategory.swift */; };
+		56EC0CC81F1C8F7900D15AE3 /* Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EC0CC71F1C8F7900D15AE3 /* Cube.swift */; };
+		56EC0CCA1F1C906900D15AE3 /* PBRMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EC0CC91F1C906900D15AE3 /* PBRMaterial.swift */; };
+		56EC0CCC1F1C90CC00D15AE3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EC0CCB1F1C90CC00D15AE3 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		56280BC31F14C329008861DF /* ARkitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARkitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56280BC61F14C329008861DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		56280BC81F14C329008861DF /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		56280BC81F14C329008861DF /* Assets.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Assets.scnassets; sourceTree = "<group>"; };
 		56280BD41F14C329008861DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566176B11F1C9D0A003F9DD5 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
 		566F7D471F15C7EE00DAB6D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		566F7D4D1F15C92900DAB6D7 /* UIStoryboard+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extensions.swift"; sourceTree = "<group>"; };
 		566F7D651F15CFD900DAB6D7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,6 +49,9 @@
 		56A7155F1F15BEA800F83C9E /* RecordVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVideoViewController.swift; sourceTree = "<group>"; };
 		56A715601F15BEA800F83C9E /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		56EC0CC41F18D4B500D15AE3 /* CollisionCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionCategory.swift; sourceTree = "<group>"; };
+		56EC0CC71F1C8F7900D15AE3 /* Cube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cube.swift; sourceTree = "<group>"; };
+		56EC0CC91F1C906900D15AE3 /* PBRMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBRMaterial.swift; sourceTree = "<group>"; };
+		56EC0CCB1F1C90CC00D15AE3 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +84,10 @@
 		56280BC51F14C329008861DF /* ARkitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				56EC0CC41F18D4B500D15AE3 /* CollisionCategory.swift */,
+				56EC0CC61F1C8F6500D15AE3 /* ARCube */,
 				566F7D791F1711D800DAB6D7 /* PlaneDetection */,
 				56280BC61F14C329008861DF /* AppDelegate.swift */,
-				56280BC81F14C329008861DF /* art.scnassets */,
+				56280BC81F14C329008861DF /* Assets.scnassets */,
 				566F7D471F15C7EE00DAB6D7 /* Assets.xcassets */,
 				566F7D4C1F15C92900DAB6D7 /* Extensions */,
 				56280BD41F14C329008861DF /* Info.plist */,
@@ -133,8 +141,20 @@
 				566F7D761F170B0400DAB6D7 /* PlaneDetectionViewController.swift */,
 				56A715601F15BEA800F83C9E /* RootViewController.swift */,
 				568503151F1876CA004E1B86 /* ARCubeViewController.swift */,
+				566176B11F1C9D0A003F9DD5 /* ConfigViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		56EC0CC61F1C8F6500D15AE3 /* ARCube */ = {
+			isa = PBXGroup;
+			children = (
+				56EC0CC41F18D4B500D15AE3 /* CollisionCategory.swift */,
+				56EC0CC71F1C8F7900D15AE3 /* Cube.swift */,
+				56EC0CC91F1C906900D15AE3 /* PBRMaterial.swift */,
+				56EC0CCB1F1C90CC00D15AE3 /* Config.swift */,
+			);
+			path = ARCube;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +217,7 @@
 			files = (
 				566F7D681F15D02F00DAB6D7 /* Main.storyboard in Resources */,
 				566F7D671F15D02C00DAB6D7 /* LaunchScreen.storyboard in Resources */,
-				56280BC91F14C329008861DF /* art.scnassets in Resources */,
+				56280BC91F14C329008861DF /* Assets.scnassets in Resources */,
 				566F7D481F15C7EE00DAB6D7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,12 +230,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				566F7D4E1F15CA6900DAB6D7 /* UIStoryboard+Extensions.swift in Sources */,
+				56EC0CCA1F1C906900D15AE3 /* PBRMaterial.swift in Sources */,
+				56EC0CCC1F1C90CC00D15AE3 /* Config.swift in Sources */,
 				566F7D421F15C35C00DAB6D7 /* RecordVideoViewController.swift in Sources */,
 				566F7D7B1F1711E700DAB6D7 /* Plane.swift in Sources */,
 				566F7D431F15C35C00DAB6D7 /* RootViewController.swift in Sources */,
 				566F7D751F161E6600DAB6D7 /* ScreenRecordCoordinator.swift in Sources */,
 				566F7D701F161D9400DAB6D7 /* WindowUtility.swift in Sources */,
 				566F7D771F170B0400DAB6D7 /* PlaneDetectionViewController.swift in Sources */,
+				56EC0CC81F1C8F7900D15AE3 /* Cube.swift in Sources */,
+				566176B21F1C9D0A003F9DD5 /* ConfigViewController.swift in Sources */,
 				56280BC71F14C329008861DF /* AppDelegate.swift in Sources */,
 				56EC0CC51F18D4B500D15AE3 /* CollisionCategory.swift in Sources */,
 				568503161F1876CA004E1B86 /* ARCubeViewController.swift in Sources */,
