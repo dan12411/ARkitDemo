@@ -18,12 +18,14 @@ class ScreenRecorder {
     
     let viewOverlay = WindowUtility()
     var url: URL?
+    
     //MARK: Screen Recording
     
     func startRecording(withFileName fileName: String, recordingHandler:@escaping (Error?)-> Void) {
         
         let fileURL = URL(fileURLWithPath: ReplayFileUtility.filePath(fileName))
         self.url = fileURL
+        
         assetWriter = try! AVAssetWriter(outputURL: fileURL, fileType:
             AVFileType.mp4)
         let width = floor(UIScreen.main.bounds.size.width / 16) * 16

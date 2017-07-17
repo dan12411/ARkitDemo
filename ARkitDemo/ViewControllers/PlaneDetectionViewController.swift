@@ -77,7 +77,7 @@ extension PlaneDetectionViewController: ARSCNViewDelegate {
             return
         }
         // When a new plane is detected we create a new SceneKit plane to visualize it in 3D
-        let plane = Plane(anchor: anchor as! ARPlaneAnchor)
+        let plane = Plane(anchor: anchor as! ARPlaneAnchor, isHidden: false)
         self.planes[anchor.identifier] = plane
         node.addChildNode(plane)
     }

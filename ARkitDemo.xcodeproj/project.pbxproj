@@ -21,6 +21,8 @@
 		566F7D751F161E6600DAB6D7 /* ScreenRecordCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F7D741F161E6600DAB6D7 /* ScreenRecordCoordinator.swift */; };
 		566F7D771F170B0400DAB6D7 /* PlaneDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F7D761F170B0400DAB6D7 /* PlaneDetectionViewController.swift */; };
 		566F7D7B1F1711E700DAB6D7 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F7D7A1F1711E700DAB6D7 /* Plane.swift */; };
+		568503161F1876CA004E1B86 /* ARCubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568503151F1876CA004E1B86 /* ARCubeViewController.swift */; };
+		56EC0CC51F18D4B500D15AE3 /* CollisionCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EC0CC41F18D4B500D15AE3 /* CollisionCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +40,10 @@
 		566F7D741F161E6600DAB6D7 /* ScreenRecordCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenRecordCoordinator.swift; sourceTree = "<group>"; };
 		566F7D761F170B0400DAB6D7 /* PlaneDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneDetectionViewController.swift; sourceTree = "<group>"; };
 		566F7D7A1F1711E700DAB6D7 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		568503151F1876CA004E1B86 /* ARCubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCubeViewController.swift; sourceTree = "<group>"; };
 		56A7155F1F15BEA800F83C9E /* RecordVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVideoViewController.swift; sourceTree = "<group>"; };
 		56A715601F15BEA800F83C9E /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		56EC0CC41F18D4B500D15AE3 /* CollisionCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 		56280BC51F14C329008861DF /* ARkitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				56EC0CC41F18D4B500D15AE3 /* CollisionCategory.swift */,
 				566F7D791F1711D800DAB6D7 /* PlaneDetection */,
 				56280BC61F14C329008861DF /* AppDelegate.swift */,
 				56280BC81F14C329008861DF /* art.scnassets */,
@@ -127,6 +132,7 @@
 				56A7155F1F15BEA800F83C9E /* RecordVideoViewController.swift */,
 				566F7D761F170B0400DAB6D7 /* PlaneDetectionViewController.swift */,
 				56A715601F15BEA800F83C9E /* RootViewController.swift */,
+				568503151F1876CA004E1B86 /* ARCubeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -211,6 +217,8 @@
 				566F7D701F161D9400DAB6D7 /* WindowUtility.swift in Sources */,
 				566F7D771F170B0400DAB6D7 /* PlaneDetectionViewController.swift in Sources */,
 				56280BC71F14C329008861DF /* AppDelegate.swift in Sources */,
+				56EC0CC51F18D4B500D15AE3 /* CollisionCategory.swift in Sources */,
+				568503161F1876CA004E1B86 /* ARCubeViewController.swift in Sources */,
 				566F7D6E1F161CFA00DAB6D7 /* ScreenRecorder.swift in Sources */,
 				566F7D731F161E2E00DAB6D7 /* ReplayFileUtility.swift in Sources */,
 			);

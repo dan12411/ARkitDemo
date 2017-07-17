@@ -25,7 +25,7 @@ class RootViewController: UIViewController {
         featuresTableView.dataSource = self
         self.view.addSubview(featuresTableView)
         
-        dataSource = [["Record Video", "PlaneDetection"]]
+        dataSource = [["Record Video", "PlaneDetection"],["Adding geometry and physics fun","Realism - Lighting & PBR"]]
         
     }
 }
@@ -56,7 +56,7 @@ extension RootViewController: UITableViewDataSource {
         case 0:
             sectionTitle = "ARKit"
         default:
-            sectionTitle = ""
+            sectionTitle = "Example"
         }
         
         return sectionTitle
@@ -89,6 +89,9 @@ extension RootViewController: UITableViewDelegate {
         case (0,1):
             let planeVC = UIStoryboard.main().instantiateViewController(withIdentifier: "PlaneDetectionViewController") as! PlaneDetectionViewController
             self.navigationController?.pushViewController(planeVC, animated: true)
+        case (1,0) :
+            let cubeVC = UIStoryboard.main().instantiateViewController(withIdentifier: "ARCubeViewController") as! ARCubeViewController
+            self.navigationController?.pushViewController(cubeVC, animated: true)
         default:
             break
         }
