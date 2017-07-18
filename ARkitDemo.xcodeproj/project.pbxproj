@@ -22,6 +22,58 @@
 		566F7D751F161E6600DAB6D7 /* ScreenRecordCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F7D741F161E6600DAB6D7 /* ScreenRecordCoordinator.swift */; };
 		566F7D771F170B0400DAB6D7 /* PlaneDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F7D761F170B0400DAB6D7 /* PlaneDetectionViewController.swift */; };
 		566F7D7B1F1711E700DAB6D7 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566F7D7A1F1711E700DAB6D7 /* Plane.swift */; };
+		5676978F1F1DE8C00093F369 /* BR_Eevee-Shiny01.blend in Resources */ = {isa = PBXBuildFile; fileRef = 567697591F1DE8C00093F369 /* BR_Eevee-Shiny01.blend */; };
+		567697901F1DE8C00093F369 /* BR_Eevee-Shiny01.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5676975A1F1DE8C00093F369 /* BR_Eevee-Shiny01.mtl */; };
+		567697911F1DE8C00093F369 /* BR_Eevee-Shiny01.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5676975B1F1DE8C00093F369 /* BR_Eevee-Shiny01.obj */; };
+		567697921F1DE8C00093F369 /* BR_Eevee-Shiny01.png in Resources */ = {isa = PBXBuildFile; fileRef = 5676975C1F1DE8C00093F369 /* BR_Eevee-Shiny01.png */; };
+		567697931F1DE8C00093F369 /* BR_Eevee-Shiny01.x in Resources */ = {isa = PBXBuildFile; fileRef = 5676975D1F1DE8C00093F369 /* BR_Eevee-Shiny01.x */; };
+		567697941F1DE8C00093F369 /* BR_Eevee.blend in Resources */ = {isa = PBXBuildFile; fileRef = 5676975E1F1DE8C00093F369 /* BR_Eevee.blend */; };
+		567697951F1DE8C00093F369 /* BR_Eevee.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5676975F1F1DE8C00093F369 /* BR_Eevee.mtl */; };
+		567697961F1DE8C00093F369 /* BR_Eevee.obj in Resources */ = {isa = PBXBuildFile; fileRef = 567697601F1DE8C00093F369 /* BR_Eevee.obj */; };
+		567697971F1DE8C00093F369 /* BR_Eevee.png in Resources */ = {isa = PBXBuildFile; fileRef = 567697611F1DE8C00093F369 /* BR_Eevee.png */; };
+		567697981F1DE8C00093F369 /* BR_Eevee.wav in Resources */ = {isa = PBXBuildFile; fileRef = 567697621F1DE8C00093F369 /* BR_Eevee.wav */; };
+		567697991F1DE8C00093F369 /* BR_Eevee.x in Resources */ = {isa = PBXBuildFile; fileRef = 567697631F1DE8C00093F369 /* BR_Eevee.x */; };
+		5676979A1F1DE8C00093F369 /* Eevee.blend in Resources */ = {isa = PBXBuildFile; fileRef = 567697641F1DE8C00093F369 /* Eevee.blend */; };
+		5676979B1F1DE8C00093F369 /* Eevee.obj in Resources */ = {isa = PBXBuildFile; fileRef = 567697651F1DE8C00093F369 /* Eevee.obj */; };
+		5676979C1F1DE8C00093F369 /* Eevee.png in Resources */ = {isa = PBXBuildFile; fileRef = 567697661F1DE8C00093F369 /* Eevee.png */; };
+		5676979D1F1DE8C00093F369 /* Eevee.x in Resources */ = {isa = PBXBuildFile; fileRef = 567697671F1DE8C00093F369 /* Eevee.x */; };
+		5676979E1F1DE8C00093F369 /* Eievui Posed.blend in Resources */ = {isa = PBXBuildFile; fileRef = 567697681F1DE8C00093F369 /* Eievui Posed.blend */; };
+		5676979F1F1DE8C00093F369 /* Eievui Posed.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 567697691F1DE8C00093F369 /* Eievui Posed.mtl */; };
+		567697A01F1DE8C00093F369 /* Eievui Posed.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5676976A1F1DE8C00093F369 /* Eievui Posed.obj */; };
+		567697A11F1DE8C00093F369 /* Eievui.md5mesh in Resources */ = {isa = PBXBuildFile; fileRef = 5676976B1F1DE8C00093F369 /* Eievui.md5mesh */; };
+		567697A21F1DE8C00093F369 /* Eievui.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5676976C1F1DE8C00093F369 /* Eievui.mtl */; };
+		567697A31F1DE8C00093F369 /* Eievui.psk in Resources */ = {isa = PBXBuildFile; fileRef = 5676976D1F1DE8C00093F369 /* Eievui.psk */; };
+		567697A41F1DE8C00093F369 /* HELP AND README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5676976E1F1DE8C00093F369 /* HELP AND README.txt */; };
+		567697A51F1DE8C00093F369 /* BR_Eevee-Shiny01_LARGE.schematic in Resources */ = {isa = PBXBuildFile; fileRef = 567697701F1DE8C00093F369 /* BR_Eevee-Shiny01_LARGE.schematic */; };
+		567697A61F1DE8C00093F369 /* BR_Eevee-Shiny01_MEDIUM.schematic in Resources */ = {isa = PBXBuildFile; fileRef = 567697711F1DE8C00093F369 /* BR_Eevee-Shiny01_MEDIUM.schematic */; };
+		567697A71F1DE8C00093F369 /* BR_Eevee-Shiny01_SMALL.schematic in Resources */ = {isa = PBXBuildFile; fileRef = 567697721F1DE8C00093F369 /* BR_Eevee-Shiny01_SMALL.schematic */; };
+		567697A81F1DE8C00093F369 /* BR_Eevee_LARGE.schematic in Resources */ = {isa = PBXBuildFile; fileRef = 567697731F1DE8C00093F369 /* BR_Eevee_LARGE.schematic */; };
+		567697A91F1DE8C00093F369 /* BR_Eevee_MEDIUM.schematic in Resources */ = {isa = PBXBuildFile; fileRef = 567697741F1DE8C00093F369 /* BR_Eevee_MEDIUM.schematic */; };
+		567697AA1F1DE8C00093F369 /* BR_Eevee_SMALL.schematic in Resources */ = {isa = PBXBuildFile; fileRef = 567697751F1DE8C00093F369 /* BR_Eevee_SMALL.schematic */; };
+		567697AB1F1DE8C00093F369 /* Eevee_LARGE.schematic in Resources */ = {isa = PBXBuildFile; fileRef = 567697761F1DE8C00093F369 /* Eevee_LARGE.schematic */; };
+		567697AC1F1DE8C00093F369 /* Eevee_MEDIUM.schematic in Resources */ = {isa = PBXBuildFile; fileRef = 567697771F1DE8C00093F369 /* Eevee_MEDIUM.schematic */; };
+		567697AD1F1DE8C00093F369 /* Eevee_SMALL.schematic in Resources */ = {isa = PBXBuildFile; fileRef = 567697781F1DE8C00093F369 /* Eevee_SMALL.schematic */; };
+		567697AE1F1DE8C00093F369 /* Eievui Posed_LARGE.schematic in Resources */ = {isa = PBXBuildFile; fileRef = 567697791F1DE8C00093F369 /* Eievui Posed_LARGE.schematic */; };
+		567697AF1F1DE8C00093F369 /* Eievui Posed_MEDIUM.schematic in Resources */ = {isa = PBXBuildFile; fileRef = 5676977A1F1DE8C00093F369 /* Eievui Posed_MEDIUM.schematic */; };
+		567697B01F1DE8C00093F369 /* Eievui Posed_SMALL.schematic in Resources */ = {isa = PBXBuildFile; fileRef = 5676977B1F1DE8C00093F369 /* Eievui Posed_SMALL.schematic */; };
+		567697B11F1DE8C00093F369 /* eievui_0_0.tga in Resources */ = {isa = PBXBuildFile; fileRef = 5676977D1F1DE8C00093F369 /* eievui_0_0.tga */; };
+		567697B21F1DE8C00093F369 /* eievui_0_1.tga in Resources */ = {isa = PBXBuildFile; fileRef = 5676977E1F1DE8C00093F369 /* eievui_0_1.tga */; };
+		567697B31F1DE8C00093F369 /* eievui_0_2.tga in Resources */ = {isa = PBXBuildFile; fileRef = 5676977F1F1DE8C00093F369 /* eievui_0_2.tga */; };
+		567697B41F1DE8C00093F369 /* eievui_1_0.tga in Resources */ = {isa = PBXBuildFile; fileRef = 567697801F1DE8C00093F369 /* eievui_1_0.tga */; };
+		567697B51F1DE8C00093F369 /* eievui_1_1.tga in Resources */ = {isa = PBXBuildFile; fileRef = 567697811F1DE8C00093F369 /* eievui_1_1.tga */; };
+		567697B61F1DE8C00093F369 /* eievui_1_2.tga in Resources */ = {isa = PBXBuildFile; fileRef = 567697821F1DE8C00093F369 /* eievui_1_2.tga */; };
+		567697B71F1DE8C00093F369 /* EievuiDh.tga in Resources */ = {isa = PBXBuildFile; fileRef = 567697831F1DE8C00093F369 /* EievuiDh.tga */; };
+		567697B81F1DE8C00093F369 /* EievuiEyeDh.tga in Resources */ = {isa = PBXBuildFile; fileRef = 567697841F1DE8C00093F369 /* EievuiEyeDh.tga */; };
+		567697B91F1DE8C00093F369 /* EievuiMouthDh.tga in Resources */ = {isa = PBXBuildFile; fileRef = 567697851F1DE8C00093F369 /* EievuiMouthDh.tga */; };
+		567697BA1F1DE8C00093F369 /* pm0133_00_Body1.png in Resources */ = {isa = PBXBuildFile; fileRef = 567697861F1DE8C00093F369 /* pm0133_00_Body1.png */; };
+		567697BB1F1DE8C00093F369 /* pm0133_00_Eye1.png in Resources */ = {isa = PBXBuildFile; fileRef = 567697871F1DE8C00093F369 /* pm0133_00_Eye1.png */; };
+		567697BC1F1DE8C00093F369 /* pm0133_00_Mouth1.png in Resources */ = {isa = PBXBuildFile; fileRef = 567697881F1DE8C00093F369 /* pm0133_00_Mouth1.png */; };
+		567697BD1F1DE8C00093F369 /* XY_Eevee.blend in Resources */ = {isa = PBXBuildFile; fileRef = 567697891F1DE8C00093F369 /* XY_Eevee.blend */; };
+		567697BE1F1DE8C00093F369 /* XY_Eevee.blend1 in Resources */ = {isa = PBXBuildFile; fileRef = 5676978A1F1DE8C00093F369 /* XY_Eevee.blend1 */; };
+		567697BF1F1DE8C00093F369 /* XY_Eevee.fbx in Resources */ = {isa = PBXBuildFile; fileRef = 5676978B1F1DE8C00093F369 /* XY_Eevee.fbx */; };
+		567697C01F1DE8C00093F369 /* xy_eevee.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 5676978C1F1DE8C00093F369 /* xy_eevee.mtl */; };
+		567697C11F1DE8C00093F369 /* XY_Eevee.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5676978D1F1DE8C00093F369 /* XY_Eevee.obj */; };
+		567697C21F1DE8C10093F369 /* XY_Eevee.png in Resources */ = {isa = PBXBuildFile; fileRef = 5676978E1F1DE8C00093F369 /* XY_Eevee.png */; };
 		568503161F1876CA004E1B86 /* ARCubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568503151F1876CA004E1B86 /* ARCubeViewController.swift */; };
 		56EC0CC51F18D4B500D15AE3 /* CollisionCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EC0CC41F18D4B500D15AE3 /* CollisionCategory.swift */; };
 		56EC0CC81F1C8F7900D15AE3 /* Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EC0CC71F1C8F7900D15AE3 /* Cube.swift */; };
@@ -45,6 +97,58 @@
 		566F7D741F161E6600DAB6D7 /* ScreenRecordCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenRecordCoordinator.swift; sourceTree = "<group>"; };
 		566F7D761F170B0400DAB6D7 /* PlaneDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneDetectionViewController.swift; sourceTree = "<group>"; };
 		566F7D7A1F1711E700DAB6D7 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		567697591F1DE8C00093F369 /* BR_Eevee-Shiny01.blend */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BR_Eevee-Shiny01.blend"; sourceTree = "<group>"; };
+		5676975A1F1DE8C00093F369 /* BR_Eevee-Shiny01.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BR_Eevee-Shiny01.mtl"; sourceTree = "<group>"; };
+		5676975B1F1DE8C00093F369 /* BR_Eevee-Shiny01.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BR_Eevee-Shiny01.obj"; sourceTree = "<group>"; };
+		5676975C1F1DE8C00093F369 /* BR_Eevee-Shiny01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BR_Eevee-Shiny01.png"; sourceTree = "<group>"; };
+		5676975D1F1DE8C00093F369 /* BR_Eevee-Shiny01.x */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "BR_Eevee-Shiny01.x"; sourceTree = "<group>"; };
+		5676975E1F1DE8C00093F369 /* BR_Eevee.blend */ = {isa = PBXFileReference; lastKnownFileType = file; path = BR_Eevee.blend; sourceTree = "<group>"; };
+		5676975F1F1DE8C00093F369 /* BR_Eevee.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BR_Eevee.mtl; sourceTree = "<group>"; };
+		567697601F1DE8C00093F369 /* BR_Eevee.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BR_Eevee.obj; sourceTree = "<group>"; };
+		567697611F1DE8C00093F369 /* BR_Eevee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BR_Eevee.png; sourceTree = "<group>"; };
+		567697621F1DE8C00093F369 /* BR_Eevee.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BR_Eevee.wav; sourceTree = "<group>"; };
+		567697631F1DE8C00093F369 /* BR_Eevee.x */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BR_Eevee.x; sourceTree = "<group>"; };
+		567697641F1DE8C00093F369 /* Eevee.blend */ = {isa = PBXFileReference; lastKnownFileType = file; path = Eevee.blend; sourceTree = "<group>"; };
+		567697651F1DE8C00093F369 /* Eevee.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Eevee.obj; sourceTree = "<group>"; };
+		567697661F1DE8C00093F369 /* Eevee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eevee.png; sourceTree = "<group>"; };
+		567697671F1DE8C00093F369 /* Eevee.x */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Eevee.x; sourceTree = "<group>"; };
+		567697681F1DE8C00093F369 /* Eievui Posed.blend */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eievui Posed.blend"; sourceTree = "<group>"; };
+		567697691F1DE8C00093F369 /* Eievui Posed.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Eievui Posed.mtl"; sourceTree = "<group>"; };
+		5676976A1F1DE8C00093F369 /* Eievui Posed.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Eievui Posed.obj"; sourceTree = "<group>"; };
+		5676976B1F1DE8C00093F369 /* Eievui.md5mesh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Eievui.md5mesh; sourceTree = "<group>"; };
+		5676976C1F1DE8C00093F369 /* Eievui.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Eievui.mtl; sourceTree = "<group>"; };
+		5676976D1F1DE8C00093F369 /* Eievui.psk */ = {isa = PBXFileReference; lastKnownFileType = file; path = Eievui.psk; sourceTree = "<group>"; };
+		5676976E1F1DE8C00093F369 /* HELP AND README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "HELP AND README.txt"; sourceTree = "<group>"; };
+		567697701F1DE8C00093F369 /* BR_Eevee-Shiny01_LARGE.schematic */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BR_Eevee-Shiny01_LARGE.schematic"; sourceTree = "<group>"; };
+		567697711F1DE8C00093F369 /* BR_Eevee-Shiny01_MEDIUM.schematic */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BR_Eevee-Shiny01_MEDIUM.schematic"; sourceTree = "<group>"; };
+		567697721F1DE8C00093F369 /* BR_Eevee-Shiny01_SMALL.schematic */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BR_Eevee-Shiny01_SMALL.schematic"; sourceTree = "<group>"; };
+		567697731F1DE8C00093F369 /* BR_Eevee_LARGE.schematic */ = {isa = PBXFileReference; lastKnownFileType = file; path = BR_Eevee_LARGE.schematic; sourceTree = "<group>"; };
+		567697741F1DE8C00093F369 /* BR_Eevee_MEDIUM.schematic */ = {isa = PBXFileReference; lastKnownFileType = file; path = BR_Eevee_MEDIUM.schematic; sourceTree = "<group>"; };
+		567697751F1DE8C00093F369 /* BR_Eevee_SMALL.schematic */ = {isa = PBXFileReference; lastKnownFileType = file; path = BR_Eevee_SMALL.schematic; sourceTree = "<group>"; };
+		567697761F1DE8C00093F369 /* Eevee_LARGE.schematic */ = {isa = PBXFileReference; lastKnownFileType = file; path = Eevee_LARGE.schematic; sourceTree = "<group>"; };
+		567697771F1DE8C00093F369 /* Eevee_MEDIUM.schematic */ = {isa = PBXFileReference; lastKnownFileType = file; path = Eevee_MEDIUM.schematic; sourceTree = "<group>"; };
+		567697781F1DE8C00093F369 /* Eevee_SMALL.schematic */ = {isa = PBXFileReference; lastKnownFileType = file; path = Eevee_SMALL.schematic; sourceTree = "<group>"; };
+		567697791F1DE8C00093F369 /* Eievui Posed_LARGE.schematic */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eievui Posed_LARGE.schematic"; sourceTree = "<group>"; };
+		5676977A1F1DE8C00093F369 /* Eievui Posed_MEDIUM.schematic */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eievui Posed_MEDIUM.schematic"; sourceTree = "<group>"; };
+		5676977B1F1DE8C00093F369 /* Eievui Posed_SMALL.schematic */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Eievui Posed_SMALL.schematic"; sourceTree = "<group>"; };
+		5676977D1F1DE8C00093F369 /* eievui_0_0.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = eievui_0_0.tga; sourceTree = "<group>"; };
+		5676977E1F1DE8C00093F369 /* eievui_0_1.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = eievui_0_1.tga; sourceTree = "<group>"; };
+		5676977F1F1DE8C00093F369 /* eievui_0_2.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = eievui_0_2.tga; sourceTree = "<group>"; };
+		567697801F1DE8C00093F369 /* eievui_1_0.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = eievui_1_0.tga; sourceTree = "<group>"; };
+		567697811F1DE8C00093F369 /* eievui_1_1.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = eievui_1_1.tga; sourceTree = "<group>"; };
+		567697821F1DE8C00093F369 /* eievui_1_2.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = eievui_1_2.tga; sourceTree = "<group>"; };
+		567697831F1DE8C00093F369 /* EievuiDh.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = EievuiDh.tga; sourceTree = "<group>"; };
+		567697841F1DE8C00093F369 /* EievuiEyeDh.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = EievuiEyeDh.tga; sourceTree = "<group>"; };
+		567697851F1DE8C00093F369 /* EievuiMouthDh.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = EievuiMouthDh.tga; sourceTree = "<group>"; };
+		567697861F1DE8C00093F369 /* pm0133_00_Body1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pm0133_00_Body1.png; sourceTree = "<group>"; };
+		567697871F1DE8C00093F369 /* pm0133_00_Eye1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pm0133_00_Eye1.png; sourceTree = "<group>"; };
+		567697881F1DE8C00093F369 /* pm0133_00_Mouth1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pm0133_00_Mouth1.png; sourceTree = "<group>"; };
+		567697891F1DE8C00093F369 /* XY_Eevee.blend */ = {isa = PBXFileReference; lastKnownFileType = file; path = XY_Eevee.blend; sourceTree = "<group>"; };
+		5676978A1F1DE8C00093F369 /* XY_Eevee.blend1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = XY_Eevee.blend1; sourceTree = "<group>"; };
+		5676978B1F1DE8C00093F369 /* XY_Eevee.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = XY_Eevee.fbx; sourceTree = "<group>"; };
+		5676978C1F1DE8C00093F369 /* xy_eevee.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = xy_eevee.mtl; sourceTree = "<group>"; };
+		5676978D1F1DE8C00093F369 /* XY_Eevee.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XY_Eevee.obj; sourceTree = "<group>"; };
+		5676978E1F1DE8C00093F369 /* XY_Eevee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XY_Eevee.png; sourceTree = "<group>"; };
 		568503151F1876CA004E1B86 /* ARCubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCubeViewController.swift; sourceTree = "<group>"; };
 		56A7155F1F15BEA800F83C9E /* RecordVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVideoViewController.swift; sourceTree = "<group>"; };
 		56A715601F15BEA800F83C9E /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +188,7 @@
 		56280BC51F14C329008861DF /* ARkitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				567697581F1DE8C00093F369 /* Eevee */,
 				56EC0CC61F1C8F6500D15AE3 /* ARCube */,
 				566F7D791F1711D800DAB6D7 /* PlaneDetection */,
 				56280BC61F14C329008861DF /* AppDelegate.swift */,
@@ -132,6 +237,82 @@
 				566F7D7A1F1711E700DAB6D7 /* Plane.swift */,
 			);
 			path = PlaneDetection;
+			sourceTree = "<group>";
+		};
+		567697581F1DE8C00093F369 /* Eevee */ = {
+			isa = PBXGroup;
+			children = (
+				567697591F1DE8C00093F369 /* BR_Eevee-Shiny01.blend */,
+				5676975A1F1DE8C00093F369 /* BR_Eevee-Shiny01.mtl */,
+				5676975B1F1DE8C00093F369 /* BR_Eevee-Shiny01.obj */,
+				5676975C1F1DE8C00093F369 /* BR_Eevee-Shiny01.png */,
+				5676975D1F1DE8C00093F369 /* BR_Eevee-Shiny01.x */,
+				5676975E1F1DE8C00093F369 /* BR_Eevee.blend */,
+				5676975F1F1DE8C00093F369 /* BR_Eevee.mtl */,
+				567697601F1DE8C00093F369 /* BR_Eevee.obj */,
+				567697611F1DE8C00093F369 /* BR_Eevee.png */,
+				567697621F1DE8C00093F369 /* BR_Eevee.wav */,
+				567697631F1DE8C00093F369 /* BR_Eevee.x */,
+				567697641F1DE8C00093F369 /* Eevee.blend */,
+				567697651F1DE8C00093F369 /* Eevee.obj */,
+				567697661F1DE8C00093F369 /* Eevee.png */,
+				567697671F1DE8C00093F369 /* Eevee.x */,
+				567697681F1DE8C00093F369 /* Eievui Posed.blend */,
+				567697691F1DE8C00093F369 /* Eievui Posed.mtl */,
+				5676976A1F1DE8C00093F369 /* Eievui Posed.obj */,
+				5676976B1F1DE8C00093F369 /* Eievui.md5mesh */,
+				5676976C1F1DE8C00093F369 /* Eievui.mtl */,
+				5676976D1F1DE8C00093F369 /* Eievui.psk */,
+				5676976E1F1DE8C00093F369 /* HELP AND README.txt */,
+				5676976F1F1DE8C00093F369 /* Minecraft */,
+				5676977C1F1DE8C00093F369 /* Textures */,
+				567697891F1DE8C00093F369 /* XY_Eevee.blend */,
+				5676978A1F1DE8C00093F369 /* XY_Eevee.blend1 */,
+				5676978B1F1DE8C00093F369 /* XY_Eevee.fbx */,
+				5676978C1F1DE8C00093F369 /* xy_eevee.mtl */,
+				5676978D1F1DE8C00093F369 /* XY_Eevee.obj */,
+				5676978E1F1DE8C00093F369 /* XY_Eevee.png */,
+			);
+			name = Eevee;
+			path = ../../../../Downloads/Eevee;
+			sourceTree = "<group>";
+		};
+		5676976F1F1DE8C00093F369 /* Minecraft */ = {
+			isa = PBXGroup;
+			children = (
+				567697701F1DE8C00093F369 /* BR_Eevee-Shiny01_LARGE.schematic */,
+				567697711F1DE8C00093F369 /* BR_Eevee-Shiny01_MEDIUM.schematic */,
+				567697721F1DE8C00093F369 /* BR_Eevee-Shiny01_SMALL.schematic */,
+				567697731F1DE8C00093F369 /* BR_Eevee_LARGE.schematic */,
+				567697741F1DE8C00093F369 /* BR_Eevee_MEDIUM.schematic */,
+				567697751F1DE8C00093F369 /* BR_Eevee_SMALL.schematic */,
+				567697761F1DE8C00093F369 /* Eevee_LARGE.schematic */,
+				567697771F1DE8C00093F369 /* Eevee_MEDIUM.schematic */,
+				567697781F1DE8C00093F369 /* Eevee_SMALL.schematic */,
+				567697791F1DE8C00093F369 /* Eievui Posed_LARGE.schematic */,
+				5676977A1F1DE8C00093F369 /* Eievui Posed_MEDIUM.schematic */,
+				5676977B1F1DE8C00093F369 /* Eievui Posed_SMALL.schematic */,
+			);
+			path = Minecraft;
+			sourceTree = "<group>";
+		};
+		5676977C1F1DE8C00093F369 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				5676977D1F1DE8C00093F369 /* eievui_0_0.tga */,
+				5676977E1F1DE8C00093F369 /* eievui_0_1.tga */,
+				5676977F1F1DE8C00093F369 /* eievui_0_2.tga */,
+				567697801F1DE8C00093F369 /* eievui_1_0.tga */,
+				567697811F1DE8C00093F369 /* eievui_1_1.tga */,
+				567697821F1DE8C00093F369 /* eievui_1_2.tga */,
+				567697831F1DE8C00093F369 /* EievuiDh.tga */,
+				567697841F1DE8C00093F369 /* EievuiEyeDh.tga */,
+				567697851F1DE8C00093F369 /* EievuiMouthDh.tga */,
+				567697861F1DE8C00093F369 /* pm0133_00_Body1.png */,
+				567697871F1DE8C00093F369 /* pm0133_00_Eye1.png */,
+				567697881F1DE8C00093F369 /* pm0133_00_Mouth1.png */,
+			);
+			path = Textures;
 			sourceTree = "<group>";
 		};
 		56A7155E1F15BEA800F83C9E /* ViewControllers */ = {
@@ -215,10 +396,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567697951F1DE8C00093F369 /* BR_Eevee.mtl in Resources */,
+				567697911F1DE8C00093F369 /* BR_Eevee-Shiny01.obj in Resources */,
+				5676979B1F1DE8C00093F369 /* Eevee.obj in Resources */,
+				5676979F1F1DE8C00093F369 /* Eievui Posed.mtl in Resources */,
+				567697B41F1DE8C00093F369 /* eievui_1_0.tga in Resources */,
+				567697961F1DE8C00093F369 /* BR_Eevee.obj in Resources */,
+				5676978F1F1DE8C00093F369 /* BR_Eevee-Shiny01.blend in Resources */,
+				567697C11F1DE8C00093F369 /* XY_Eevee.obj in Resources */,
+				567697B21F1DE8C00093F369 /* eievui_0_1.tga in Resources */,
+				567697C21F1DE8C10093F369 /* XY_Eevee.png in Resources */,
+				567697901F1DE8C00093F369 /* BR_Eevee-Shiny01.mtl in Resources */,
+				567697A71F1DE8C00093F369 /* BR_Eevee-Shiny01_SMALL.schematic in Resources */,
+				567697A81F1DE8C00093F369 /* BR_Eevee_LARGE.schematic in Resources */,
+				567697AC1F1DE8C00093F369 /* Eevee_MEDIUM.schematic in Resources */,
+				567697A41F1DE8C00093F369 /* HELP AND README.txt in Resources */,
+				567697A91F1DE8C00093F369 /* BR_Eevee_MEDIUM.schematic in Resources */,
 				566F7D681F15D02F00DAB6D7 /* Main.storyboard in Resources */,
+				567697B81F1DE8C00093F369 /* EievuiEyeDh.tga in Resources */,
+				567697AA1F1DE8C00093F369 /* BR_Eevee_SMALL.schematic in Resources */,
+				567697BC1F1DE8C00093F369 /* pm0133_00_Mouth1.png in Resources */,
+				5676979E1F1DE8C00093F369 /* Eievui Posed.blend in Resources */,
+				567697971F1DE8C00093F369 /* BR_Eevee.png in Resources */,
+				567697941F1DE8C00093F369 /* BR_Eevee.blend in Resources */,
+				567697BE1F1DE8C00093F369 /* XY_Eevee.blend1 in Resources */,
+				5676979A1F1DE8C00093F369 /* Eevee.blend in Resources */,
+				567697BF1F1DE8C00093F369 /* XY_Eevee.fbx in Resources */,
+				567697BD1F1DE8C00093F369 /* XY_Eevee.blend in Resources */,
+				567697A21F1DE8C00093F369 /* Eievui.mtl in Resources */,
+				567697A61F1DE8C00093F369 /* BR_Eevee-Shiny01_MEDIUM.schematic in Resources */,
+				567697BA1F1DE8C00093F369 /* pm0133_00_Body1.png in Resources */,
 				566F7D671F15D02C00DAB6D7 /* LaunchScreen.storyboard in Resources */,
+				567697B01F1DE8C00093F369 /* Eievui Posed_SMALL.schematic in Resources */,
+				567697B61F1DE8C00093F369 /* eievui_1_2.tga in Resources */,
+				567697A11F1DE8C00093F369 /* Eievui.md5mesh in Resources */,
+				567697991F1DE8C00093F369 /* BR_Eevee.x in Resources */,
+				567697A51F1DE8C00093F369 /* BR_Eevee-Shiny01_LARGE.schematic in Resources */,
+				567697B71F1DE8C00093F369 /* EievuiDh.tga in Resources */,
+				567697B11F1DE8C00093F369 /* eievui_0_0.tga in Resources */,
+				5676979C1F1DE8C00093F369 /* Eevee.png in Resources */,
+				567697A01F1DE8C00093F369 /* Eievui Posed.obj in Resources */,
+				567697BB1F1DE8C00093F369 /* pm0133_00_Eye1.png in Resources */,
+				567697C01F1DE8C00093F369 /* xy_eevee.mtl in Resources */,
+				567697AD1F1DE8C00093F369 /* Eevee_SMALL.schematic in Resources */,
+				567697921F1DE8C00093F369 /* BR_Eevee-Shiny01.png in Resources */,
 				56280BC91F14C329008861DF /* Assets.scnassets in Resources */,
+				5676979D1F1DE8C00093F369 /* Eevee.x in Resources */,
+				567697B31F1DE8C00093F369 /* eievui_0_2.tga in Resources */,
+				567697B51F1DE8C00093F369 /* eievui_1_1.tga in Resources */,
+				567697A31F1DE8C00093F369 /* Eievui.psk in Resources */,
+				567697AF1F1DE8C00093F369 /* Eievui Posed_MEDIUM.schematic in Resources */,
+				567697AE1F1DE8C00093F369 /* Eievui Posed_LARGE.schematic in Resources */,
+				567697B91F1DE8C00093F369 /* EievuiMouthDh.tga in Resources */,
+				567697981F1DE8C00093F369 /* BR_Eevee.wav in Resources */,
+				567697931F1DE8C00093F369 /* BR_Eevee-Shiny01.x in Resources */,
 				566F7D481F15C7EE00DAB6D7 /* Assets.xcassets in Resources */,
+				567697AB1F1DE8C00093F369 /* Eevee_LARGE.schematic in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

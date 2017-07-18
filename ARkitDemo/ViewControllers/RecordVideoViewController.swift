@@ -9,11 +9,13 @@
 import UIKit
 import SceneKit
 import ARKit
+import SceneKit.ModelIO
 
 class RecordVideoViewController: UIViewController {
 
     @IBOutlet var sceneView: ARSCNView!
     var recordButton: UIButton!
+    var virtualObject: SCNNode = SCNNode()
     
     // MARK: Methods
     
@@ -44,9 +46,39 @@ class RecordVideoViewController: UIViewController {
     fileprivate func setupScene() {
         sceneView.delegate = self
         sceneView.showsStatistics = true
+        sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints]
         
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
+        // load 3D model (obj file)
+        let bundle = Bundle.main
+        guard let url = bundle.url(forResource: "Eevee", withExtension: "obj") else {
+            fatalError("Failed to find model file")
+        }
+        let asset = MDLAsset(url: url)
+        guard let object = asset.object(at: 0) as? MDLMesh else {
+            fatalError("Failed to get mesh from asset")
+        }
+        virtualObject = SCNNode.init(mdlObject: object)
+        virtualObject.simdPosition = float3(0, -0.5, -0.5)
+        virtualObject.scale = SCNVector3(0.1, 0.1, 0.1)
+        
+        let scene = SCNScene()
+//        let scene = SCNScene(named: "art.scnassets/ship.scn")!
         sceneView.scene = scene
+        sceneView.scene.rootNode.addChildNode(virtualObject)
+    }
+    
+    @objc fileprivate func changePositionFrom(recognizer: UIPanGestureRecognizer) {
+        let tapPoint = recognizer.location(in: sceneView)
+        let result = sceneView.hitTest(tapPoint, types: .featurePoint)
+        
+        guard let hitResult = result.first else { return }
+        let position = SCNVector3Make(hitResult.worldTransform.columns.3.x, hitResult.worldTransform.columns.3.y, hitResult.worldTransform.columns.3.z)
+        virtualObject.position = position
+    }
+    
+    fileprivate func setupRecognizers() {
+        let panGestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(changePositionFrom(recognizer:)))
+        view.addGestureRecognizer(panGestureRecognizer)
     }
     
     override func viewDidLoad() {
@@ -54,6 +86,7 @@ class RecordVideoViewController: UIViewController {
         
         setupScene()
         addRecordButton()
+        setupRecognizers()
     }
     
     fileprivate func setupSession() {
