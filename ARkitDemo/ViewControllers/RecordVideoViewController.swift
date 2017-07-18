@@ -34,6 +34,7 @@ class RecordVideoViewController: UIViewController {
     @objc fileprivate func record() {
         let screenRecord = ScreenRecordCoordinator()
         let randomNumber = arc4random_uniform(9999)
+        screenRecord.viewOverlay.stopButtonColor = UIColor.red
         screenRecord.startRecording(withFileName: "coolScreenRecording\(randomNumber)", recordingHandler: { error in
             print("Recording in progress")
         }) { error in
@@ -89,6 +90,7 @@ class RecordVideoViewController: UIViewController {
         setupScene()
         addRecordButton()
         setupRecognizers()
+        record()
     }
     
     fileprivate func setupSession() {

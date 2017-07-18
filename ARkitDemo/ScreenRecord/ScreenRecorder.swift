@@ -23,8 +23,16 @@ class ScreenRecorder {
     
     func startRecording(withFileName fileName: String, recordingHandler:@escaping (Error?)-> Void) {
         
-        let fileURL = URL(fileURLWithPath: ReplayFileUtility.filePath(fileName))
+        let filePath = ReplayFileUtility.filePath(fileName)
+        let fileURL = URL(fileURLWithPath: filePath)
         self.url = fileURL
+        
+        if FileManager.default.fileExists(atPath: filePath) {
+            print("file exist!!")
+            try! FileManager.default.removeItem(atPath: filePath)
+        } else {
+            print("file not exist")
+        }
         
         assetWriter = try! AVAssetWriter(outputURL: fileURL, fileType:
             AVFileType.mp4)
