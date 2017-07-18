@@ -149,6 +149,7 @@
 		5676978C1F1DE8C00093F369 /* xy_eevee.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = xy_eevee.mtl; sourceTree = "<group>"; };
 		5676978D1F1DE8C00093F369 /* XY_Eevee.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XY_Eevee.obj; sourceTree = "<group>"; };
 		5676978E1F1DE8C00093F369 /* XY_Eevee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = XY_Eevee.png; sourceTree = "<group>"; };
+		567697C31F1E0CB20093F369 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		568503151F1876CA004E1B86 /* ARCubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCubeViewController.swift; sourceTree = "<group>"; };
 		56A7155F1F15BEA800F83C9E /* RecordVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVideoViewController.swift; sourceTree = "<group>"; };
 		56A715601F15BEA800F83C9E /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -172,6 +173,7 @@
 		56280BBA1F14C329008861DF = {
 			isa = PBXGroup;
 			children = (
+				567697C31F1E0CB20093F369 /* README.md */,
 				56280BC51F14C329008861DF /* ARkitDemo */,
 				56280BC41F14C329008861DF /* Products */,
 			);
