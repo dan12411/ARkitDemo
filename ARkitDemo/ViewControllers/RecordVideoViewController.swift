@@ -72,8 +72,10 @@ class RecordVideoViewController: UIViewController {
         let result = sceneView.hitTest(tapPoint, types: .featurePoint)
         
         guard let hitResult = result.first else { return }
-        let position = SCNVector3Make(hitResult.worldTransform.columns.3.x, hitResult.worldTransform.columns.3.y, hitResult.worldTransform.columns.3.z)
-        virtualObject.position = position
+//        let position = SCNVector3Make(hitResult.worldTransform.columns.3.x, hitResult.worldTransform.columns.3.y, hitResult.worldTransform.columns.3.z)
+//        virtualObject.position = position
+        let position = simd_float3(hitResult.worldTransform.columns.3.x, hitResult.worldTransform.columns.3.y, hitResult.worldTransform.columns.3.z)
+        virtualObject.simdPosition = position
     }
     
     fileprivate func setupRecognizers() {
