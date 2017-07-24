@@ -97,6 +97,9 @@ extension RootViewController: UITableViewDelegate {
         case (1,0) :
             let cubeVC = UIStoryboard.main().instantiateViewController(withIdentifier: "ARCubeViewController") as! ARCubeViewController
             self.navigationController?.pushViewController(cubeVC, animated: true)
+        case (1,1) :
+            let arulerVC = UIStoryboard.main().instantiateViewController(withIdentifier: "ARulerViewController") as! ARulerViewController
+            self.navigationController?.pushViewController(arulerVC, animated: true)
         default:
             break
         }

@@ -12,6 +12,13 @@
 		560EF7E21F1EFE3C00610ED8 /* SceneKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560EF7E11F1EFE3C00610ED8 /* SceneKitViewController.swift */; };
 		56280BC71F14C329008861DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56280BC61F14C329008861DF /* AppDelegate.swift */; };
 		56280BC91F14C329008861DF /* Assets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 56280BC81F14C329008861DF /* Assets.scnassets */; };
+		564B25FB1F25D4620067D5F7 /* ARulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B25FA1F25D4620067D5F7 /* ARulerViewController.swift */; };
+		564B25FE1F25D7260067D5F7 /* LineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B25FD1F25D7260067D5F7 /* LineNode.swift */; };
+		564B26001F25D8BC0067D5F7 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B25FF1F25D8BC0067D5F7 /* FocusSquare.swift */; };
+		564B26021F25D9080067D5F7 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B26011F25D9080067D5F7 /* Utilities.swift */; };
+		564B26041F25F0190067D5F7 /* ARulerPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B26031F25F0190067D5F7 /* ARulerPlane.swift */; };
+		564B26061F25F0A20067D5F7 /* PlaneDebugVisualization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564B26051F25F0A20067D5F7 /* PlaneDebugVisualization.swift */; };
+		564B26091F25F4760067D5F7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 564B260B1F25F4760067D5F7 /* Localizable.strings */; };
 		566176B21F1C9D0A003F9DD5 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566176B11F1C9D0A003F9DD5 /* ConfigViewController.swift */; };
 		566F7D421F15C35C00DAB6D7 /* RecordVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A7155F1F15BEA800F83C9E /* RecordVideoViewController.swift */; };
 		566F7D431F15C35C00DAB6D7 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A715601F15BEA800F83C9E /* RootViewController.swift */; };
@@ -109,6 +116,14 @@
 		56280BC61F14C329008861DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56280BC81F14C329008861DF /* Assets.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Assets.scnassets; sourceTree = "<group>"; };
 		56280BD41F14C329008861DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564B25FA1F25D4620067D5F7 /* ARulerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARulerViewController.swift; sourceTree = "<group>"; };
+		564B25FD1F25D7260067D5F7 /* LineNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineNode.swift; sourceTree = "<group>"; };
+		564B25FF1F25D8BC0067D5F7 /* FocusSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
+		564B26011F25D9080067D5F7 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		564B26031F25F0190067D5F7 /* ARulerPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARulerPlane.swift; sourceTree = "<group>"; };
+		564B26051F25F0A20067D5F7 /* PlaneDebugVisualization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneDebugVisualization.swift; sourceTree = "<group>"; };
+		564B260A1F25F4760067D5F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		564B260C1F25F4A10067D5F7 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		566176B11F1C9D0A003F9DD5 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
 		566F7D471F15C7EE00DAB6D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		566F7D4D1F15C92900DAB6D7 /* UIStoryboard+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extensions.swift"; sourceTree = "<group>"; };
@@ -231,6 +246,7 @@
 		56280BC51F14C329008861DF /* ARkitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				564B25FC1F25D7010067D5F7 /* ARuler */,
 				567697581F1DE8C00093F369 /* Eevee */,
 				56EC0CC61F1C8F6500D15AE3 /* ARCube */,
 				566F7D791F1711D800DAB6D7 /* PlaneDetection */,
@@ -242,8 +258,21 @@
 				566F7D6C1F161CD700DAB6D7 /* ScreenRecord */,
 				566F7D641F15CFD900DAB6D7 /* Storyboards */,
 				56A7155E1F15BEA800F83C9E /* ViewControllers */,
+				564B260B1F25F4760067D5F7 /* Localizable.strings */,
 			);
 			path = ARkitDemo;
+			sourceTree = "<group>";
+		};
+		564B25FC1F25D7010067D5F7 /* ARuler */ = {
+			isa = PBXGroup;
+			children = (
+				564B25FD1F25D7260067D5F7 /* LineNode.swift */,
+				564B25FF1F25D8BC0067D5F7 /* FocusSquare.swift */,
+				564B26011F25D9080067D5F7 /* Utilities.swift */,
+				564B26031F25F0190067D5F7 /* ARulerPlane.swift */,
+				564B26051F25F0A20067D5F7 /* PlaneDebugVisualization.swift */,
+			);
+			path = ARuler;
 			sourceTree = "<group>";
 		};
 		566F7D4C1F15C92900DAB6D7 /* Extensions */ = {
@@ -368,6 +397,7 @@
 				568503151F1876CA004E1B86 /* ARCubeViewController.swift */,
 				566176B11F1C9D0A003F9DD5 /* ConfigViewController.swift */,
 				560C0A3F1F1F3EC2002FE4F0 /* GPUImageViewController.swift */,
+				564B25FA1F25D4620067D5F7 /* ARulerViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -438,6 +468,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = 56280BBA1F14C329008861DF;
 			productRefGroup = 56280BC41F14C329008861DF /* Products */;
@@ -471,6 +502,7 @@
 				567697A41F1DE8C00093F369 /* HELP AND README.txt in Resources */,
 				567697A91F1DE8C00093F369 /* BR_Eevee_MEDIUM.schematic in Resources */,
 				566F7D681F15D02F00DAB6D7 /* Main.storyboard in Resources */,
+				564B26091F25F4760067D5F7 /* Localizable.strings in Resources */,
 				567697B81F1DE8C00093F369 /* EievuiEyeDh.tga in Resources */,
 				567697AA1F1DE8C00093F369 /* BR_Eevee_SMALL.schematic in Resources */,
 				567697BC1F1DE8C00093F369 /* pm0133_00_Mouth1.png in Resources */,
@@ -569,6 +601,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				566F7D4E1F15CA6900DAB6D7 /* UIStoryboard+Extensions.swift in Sources */,
+				564B26061F25F0A20067D5F7 /* PlaneDebugVisualization.swift in Sources */,
+				564B26001F25D8BC0067D5F7 /* FocusSquare.swift in Sources */,
+				564B26021F25D9080067D5F7 /* Utilities.swift in Sources */,
 				560EF7E21F1EFE3C00610ED8 /* SceneKitViewController.swift in Sources */,
 				56EC0CCA1F1C906900D15AE3 /* PBRMaterial.swift in Sources */,
 				56EC0CCC1F1C90CC00D15AE3 /* Config.swift in Sources */,
@@ -579,23 +614,39 @@
 				566F7D701F161D9400DAB6D7 /* WindowUtility.swift in Sources */,
 				566F7D771F170B0400DAB6D7 /* PlaneDetectionViewController.swift in Sources */,
 				56EC0CC81F1C8F7900D15AE3 /* Cube.swift in Sources */,
+				564B25FE1F25D7260067D5F7 /* LineNode.swift in Sources */,
 				566176B21F1C9D0A003F9DD5 /* ConfigViewController.swift in Sources */,
 				56280BC71F14C329008861DF /* AppDelegate.swift in Sources */,
 				56EC0CC51F18D4B500D15AE3 /* CollisionCategory.swift in Sources */,
 				568503161F1876CA004E1B86 /* ARCubeViewController.swift in Sources */,
 				560C0A401F1F3EC2002FE4F0 /* GPUImageViewController.swift in Sources */,
+				564B26041F25F0190067D5F7 /* ARulerPlane.swift in Sources */,
 				566F7D6E1F161CFA00DAB6D7 /* ScreenRecorder.swift in Sources */,
+				564B25FB1F25D4620067D5F7 /* ARulerViewController.swift in Sources */,
 				566F7D731F161E2E00DAB6D7 /* ReplayFileUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		564B260B1F25F4760067D5F7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564B260A1F25F4760067D5F7 /* en */,
+				564B260C1F25F4A10067D5F7 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		56280BD51F14C329008861DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -653,6 +704,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
