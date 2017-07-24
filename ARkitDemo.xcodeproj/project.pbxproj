@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23CCA63B3E1EC859E4796E0F /* Pods_ARkitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFEC13D6B7675501AD08792 /* Pods_ARkitDemo.framework */; };
+		560C0A401F1F3EC2002FE4F0 /* GPUImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560C0A3F1F1F3EC2002FE4F0 /* GPUImageViewController.swift */; };
+		560EF7E21F1EFE3C00610ED8 /* SceneKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560EF7E11F1EFE3C00610ED8 /* SceneKitViewController.swift */; };
 		56280BC71F14C329008861DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56280BC61F14C329008861DF /* AppDelegate.swift */; };
 		56280BC91F14C329008861DF /* Assets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 56280BC81F14C329008861DF /* Assets.scnassets */; };
 		566176B21F1C9D0A003F9DD5 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566176B11F1C9D0A003F9DD5 /* ConfigViewController.swift */; };
@@ -81,7 +84,27 @@
 		56EC0CCC1F1C90CC00D15AE3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EC0CCB1F1C90CC00D15AE3 /* Config.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		560EF7F51F1F01B700610ED8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		367BFA12CA4946238B1C74F6 /* Pods-ARkitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARkitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARkitDemo/Pods-ARkitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		560C0A211F1F120C002FE4F0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		560C0A221F1F1213002FE4F0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		560C0A241F1F1225002FE4F0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		560C0A271F1F123E002FE4F0 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		560C0A291F1F124D002FE4F0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		560C0A3F1F1F3EC2002FE4F0 /* GPUImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPUImageViewController.swift; sourceTree = "<group>"; };
+		560EF7E11F1EFE3C00610ED8 /* SceneKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitViewController.swift; sourceTree = "<group>"; };
 		56280BC31F14C329008861DF /* ARkitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARkitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56280BC61F14C329008861DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56280BC81F14C329008861DF /* Assets.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Assets.scnassets; sourceTree = "<group>"; };
@@ -157,6 +180,8 @@
 		56EC0CC71F1C8F7900D15AE3 /* Cube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cube.swift; sourceTree = "<group>"; };
 		56EC0CC91F1C906900D15AE3 /* PBRMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBRMaterial.swift; sourceTree = "<group>"; };
 		56EC0CCB1F1C90CC00D15AE3 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		5DFEC13D6B7675501AD08792 /* Pods_ARkitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARkitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		894A512EED774C7253C670A8 /* Pods-ARkitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARkitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARkitDemo/Pods-ARkitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,18 +189,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23CCA63B3E1EC859E4796E0F /* Pods_ARkitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		560C0A201F1F120C002FE4F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				560C0A291F1F124D002FE4F0 /* QuartzCore.framework */,
+				560C0A271F1F123E002FE4F0 /* OpenGLES.framework */,
+				560C0A241F1F1225002FE4F0 /* CoreVideo.framework */,
+				560C0A221F1F1213002FE4F0 /* AVFoundation.framework */,
+				560C0A211F1F120C002FE4F0 /* CoreMedia.framework */,
+				5DFEC13D6B7675501AD08792 /* Pods_ARkitDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		56280BBA1F14C329008861DF = {
 			isa = PBXGroup;
 			children = (
 				567697C31F1E0CB20093F369 /* README.md */,
 				56280BC51F14C329008861DF /* ARkitDemo */,
 				56280BC41F14C329008861DF /* Products */,
+				560C0A201F1F120C002FE4F0 /* Frameworks */,
+				ED6976F3DC5BE32A2B76CDD5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -321,10 +362,12 @@
 			isa = PBXGroup;
 			children = (
 				56A7155F1F15BEA800F83C9E /* RecordVideoViewController.swift */,
+				560EF7E11F1EFE3C00610ED8 /* SceneKitViewController.swift */,
 				566F7D761F170B0400DAB6D7 /* PlaneDetectionViewController.swift */,
 				56A715601F15BEA800F83C9E /* RootViewController.swift */,
 				568503151F1876CA004E1B86 /* ARCubeViewController.swift */,
 				566176B11F1C9D0A003F9DD5 /* ConfigViewController.swift */,
+				560C0A3F1F1F3EC2002FE4F0 /* GPUImageViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -340,6 +383,15 @@
 			path = ARCube;
 			sourceTree = "<group>";
 		};
+		ED6976F3DC5BE32A2B76CDD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				894A512EED774C7253C670A8 /* Pods-ARkitDemo.debug.xcconfig */,
+				367BFA12CA4946238B1C74F6 /* Pods-ARkitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -347,9 +399,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56280BD71F14C329008861DF /* Build configuration list for PBXNativeTarget "ARkitDemo" */;
 			buildPhases = (
+				577510E3F79EAAE279933232 /* [CP] Check Pods Manifest.lock */,
 				56280BBF1F14C329008861DF /* Sources */,
 				56280BC01F14C329008861DF /* Frameworks */,
 				56280BC11F14C329008861DF /* Resources */,
+				560EF7F51F1F01B700610ED8 /* CopyFiles */,
+				3CC107F330071FB1CEEC081C /* [CP] Embed Pods Frameworks */,
+				E5A3327ABD2C5670CD32E447 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -459,12 +515,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CC107F330071FB1CEEC081C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARkitDemo/Pods-ARkitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		577510E3F79EAAE279933232 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5A3327ABD2C5670CD32E447 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARkitDemo/Pods-ARkitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		56280BBF1F14C329008861DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				566F7D4E1F15CA6900DAB6D7 /* UIStoryboard+Extensions.swift in Sources */,
+				560EF7E21F1EFE3C00610ED8 /* SceneKitViewController.swift in Sources */,
 				56EC0CCA1F1C906900D15AE3 /* PBRMaterial.swift in Sources */,
 				56EC0CCC1F1C90CC00D15AE3 /* Config.swift in Sources */,
 				566F7D421F15C35C00DAB6D7 /* RecordVideoViewController.swift in Sources */,
@@ -478,6 +583,7 @@
 				56280BC71F14C329008861DF /* AppDelegate.swift in Sources */,
 				56EC0CC51F18D4B500D15AE3 /* CollisionCategory.swift in Sources */,
 				568503161F1876CA004E1B86 /* ARCubeViewController.swift in Sources */,
+				560C0A401F1F3EC2002FE4F0 /* GPUImageViewController.swift in Sources */,
 				566F7D6E1F161CFA00DAB6D7 /* ScreenRecorder.swift in Sources */,
 				566F7D731F161E2E00DAB6D7 /* ReplayFileUtility.swift in Sources */,
 			);
@@ -595,11 +701,14 @@
 		};
 		56280BD81F14C329008861DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 894A512EED774C7253C670A8 /* Pods-ARkitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8H7X36TF25;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ARkitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = co.ALPHAcamp.ARkitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -609,11 +718,14 @@
 		};
 		56280BD91F14C329008861DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 367BFA12CA4946238B1C74F6 /* Pods-ARkitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8H7X36TF25;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ARkitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = co.ALPHAcamp.ARkitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

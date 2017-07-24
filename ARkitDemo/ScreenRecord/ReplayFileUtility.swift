@@ -44,3 +44,34 @@ class ReplayFileUtility {
     }
     
 }
+
+class FileUtil {
+    
+    internal class func createFolder() {
+        // path to documents directory
+        let documentDirectoryPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first
+        if let documentDirectoryPath = documentDirectoryPath {
+            // create the custom folder path
+            let replayDirectoryPath = documentDirectoryPath.appending("/SceneKit")
+            let fileManager = FileManager.default
+            if !fileManager.fileExists(atPath: replayDirectoryPath) {
+                do {
+                    try fileManager.createDirectory(atPath: replayDirectoryPath,
+                                                    withIntermediateDirectories: false,
+                                                    attributes: nil)
+                } catch {
+                    print("Error creating Replays folder in documents dir: \(error)")
+                }
+            }
+        }
+    }
+    
+    internal class func filePath(_ fileName: String) -> String {
+        createFolder()
+        let paths = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)
+        let documentsDirectory = paths[0] as String
+        let filePath : String = "\(documentsDirectory)/SceneKit/\(fileName).mp4"
+        return filePath
+    }
+    
+}

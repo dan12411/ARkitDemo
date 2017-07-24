@@ -63,7 +63,7 @@ class RecordVideoViewController: UIViewController {
         virtualObject.scale = SCNVector3(0.1, 0.1, 0.1)
         
         let scene = SCNScene()
-//        let scene = SCNScene(named: "art.scnassets/ship.scn")!
+//        let scene = SCNScene(named: "Assets.scnassets/ship.scn")!
         sceneView.scene = scene
         sceneView.scene.rootNode.addChildNode(virtualObject)
     }

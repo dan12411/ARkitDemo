@@ -25,7 +25,7 @@ class RootViewController: UIViewController {
         featuresTableView.dataSource = self
         self.view.addSubview(featuresTableView)
         
-        dataSource = [["Record Video", "PlaneDetection"],["Adding geometry and physics fun","Realism - Lighting & PBR"]]
+        dataSource = [["Record Video", "Plane Detection", "SceneKitToVideo"],["Add Cube","AR Ruler"]]
         
     }
 }
@@ -89,6 +89,11 @@ extension RootViewController: UITableViewDelegate {
         case (0,1):
             let planeVC = UIStoryboard.main().instantiateViewController(withIdentifier: "PlaneDetectionViewController") as! PlaneDetectionViewController
             self.navigationController?.pushViewController(planeVC, animated: true)
+        case (0,2):
+//            let scenekitVC = SceneKitViewController()
+//            self.navigationController?.pushViewController(scenekitVC, animated: true)
+            let gpuVC = UIStoryboard.main().instantiateViewController(withIdentifier:"GPUImageViewController") as! GPUImageViewController
+            self.navigationController?.pushViewController(gpuVC, animated: true)
         case (1,0) :
             let cubeVC = UIStoryboard.main().instantiateViewController(withIdentifier: "ARCubeViewController") as! ARCubeViewController
             self.navigationController?.pushViewController(cubeVC, animated: true)
