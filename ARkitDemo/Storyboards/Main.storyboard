@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nr1-wn-ZrI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13168.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nr1-wn-ZrI">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -14,7 +14,7 @@
         <scene sceneID="5bs-8I-mpx">
             <objects>
                 <viewController id="Nr1-wn-ZrI" customClass="RootViewController" customModule="ARkitDemo" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="4rs-Zs-osz">
+                    <view key="view" contentMode="scaleToFill" id="4rs-Zs-osz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -45,7 +45,7 @@
         <scene sceneID="xqr-NT-Iec">
             <objects>
                 <viewController storyboardIdentifier="PlaneDetectionViewController" id="ELt-WP-krB" customClass="PlaneDetectionViewController" customModule="ARkitDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="JZM-Wb-FI9">
+                    <view key="view" contentMode="scaleToFill" id="JZM-Wb-FI9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -74,7 +74,7 @@
         <scene sceneID="7HD-0J-UPs">
             <objects>
                 <viewController storyboardIdentifier="ARCubeViewController" id="Nf9-A0-nfd" customClass="ARCubeViewController" customModule="ARkitDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="mn7-PO-ZRT">
+                    <view key="view" contentMode="scaleToFill" id="mn7-PO-ZRT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -132,7 +132,7 @@
         <scene sceneID="Fs1-4z-pB2">
             <objects>
                 <viewController storyboardIdentifier="GPUImageViewController" id="hdd-5y-i9A" customClass="GPUImageViewController" customModule="ARkitDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="RJL-Ui-bFf">
+                    <view key="view" contentMode="scaleToFill" id="RJL-Ui-bFf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -437,7 +437,7 @@
         <image name="Slice" width="40" height="40"/>
         <image name="add" width="48" height="48"/>
         <image name="restart" width="20" height="23"/>
-        <image name="set" width="16" height="16"/>
+        <image name="set" width="48" height="48"/>
         <image name="settings" width="41" height="48"/>
     </resources>
 </document>

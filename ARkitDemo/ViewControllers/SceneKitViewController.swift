@@ -89,7 +89,7 @@ class SceneKitViewController: UIViewController {
         self.cameraBoxNode.runAction(
             SCNAction.repeatForever(
                 SCNAction.rotateBy(x: 0.0, y: -2 * CGFloat.pi, z: 0.0, duration: 8.0)
-            )
+                )!
         )
         
         self.scnView.isPlaying = true
